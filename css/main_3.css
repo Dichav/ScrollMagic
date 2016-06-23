@@ -1,0 +1,154 @@
+html, body {
+	margin: 0;
+	height: 100%;
+	font-family: 'Arimo', 'Arial';
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.full-screen {
+  height: 100%; /* makes panels the entire window height */
+}
+
+.gelb {
+	background-color: #3883d8;
+}
+
+.orange {
+	background-color: #ffe8a5;
+}
+
+.lila {
+	background-color: #ffe8a5;
+}
+
+.dunkel {
+	background-color: #ffe8a5;
+}
+
+
+.box {
+	width: 15vw;	
+	height: 15vw;
+	position: relative;
+	display: inline-block;
+	background-color: red;
+}
+
+/*pos absolute to get them to stack*/
+.lang1 {
+	background-color: #993399;
+	position: absolute;
+}
+
+.lang2 {
+	background-color: #996699;
+	position: absolute;
+}
+
+.lang3 {
+	background-color: #CC99CC;
+	position: absolute;
+}
+
+/*https://www.youtube.com/watch?v=idMDDjaw9Ow*/
+
+/*FOLDER*/
+.folder {	
+  width: 50vh;
+  height: 75vh;
+  display:inline-block;  
+}
+
+.hgelb { /*das steht hinter*/
+  background-color: #FFEA09; 
+  position: absolute;  
+}
+
+.dgelb {
+  background-color: #FFBC09; 
+  position: relative;   	
+}
+
+#bigFolder {
+	background: url("../img/folder_blue.png");
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: 100% 100%;
+	background-color: #ffe8a5;
+	width: 120vh;
+	height: 90vh;
+}
+
+/*end FOLDER*/
+
+/*http://www.freepik.com/free-vector/business-roles-icons_774092.htm*/
+/*http://www.freepik.com/free-vector/mobile-phone-navigation-app_774065.htm#term=mobile&page=1&position=27*/
+/*
+img {
+	width: 100%;
+	position: center;
+}
+*/
+
+#lSeite {
+	/*background: url("../img/notepad.png");*/
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: 100% 100%;
+/*	float: left;*/
+	width: 40vh;
+	height: 60vh
+}
+
+#rSeite {
+	float: right;
+	width: 50%;
+}
+
+/*
+.linkeSeite {
+	background-image: url("../img/notepad.png"); 
+}*/
+
+
+/*TEST*/
+	
+#content-wrap {
+	width: 80%;
+}
+	
+.info {
+	width: 50%;
+}
+
+.hidari {
+	background-color: #ffe8a5;
+	background: url("../img/notepad_blue.png");
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: 100% 100%;
+	width: 40vh;
+	height: 60vh;	
+	float: left;
+}
+
+.migi {
+	background-color: #ffe8a5;
+	float: right;
+
+}
+
+
+/*some media queries*/
+
+@media screen and (min-width: 915px) {
+ 	.migi {
+ 		width: 35%;
+    }
+}
